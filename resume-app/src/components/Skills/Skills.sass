@@ -1,0 +1,54 @@
+.Skills-tech-container
+  display: flex
+  width: 100%
+  margin-bottom: 20px
+  border-radius: 10px
+  justify-content: center
+  align-items: center
+  flex-direction: column
+  background-color: white
+  box-shadow: 10px 10px 40px rgba(0,0,0,.2)
+  transition:  all ease 0.5s
+
+  .Skills-title-tech
+    display: flex
+    width: 100%
+    height: 60px
+    justify-content: center
+    align-items: center
+    border-bottom: 1px solid #dedede
+    margin-left: 20px
+    margin-right: 20px
+    font-size: 20px
+
+  .Skills-title-tech
+    img
+      height: 55px
+      width: 60px
+
+  .Skills-gallery
+    display: flex
+    width: 100%
+    justify-content: space-around
+    align-items: center
+    flex-wrap: wrap
+    flex-direction: row
+
+  .Skills-gallery
+    img
+      filter: grayscale(100%) opacity(.5)
+      cursor: pointer
+      background-position: center
+      background-size: cover
+      margin: 5px
+      transition:  all ease 0.5s
+      height: 82px
+      width: 82px
+
+  .Skills-gallery
+     img:hover
+       filter: none
+
+.Skills-tech-container:hover
+  transform: scale(1.25,1.25)
+  transition-timing-function: ease
